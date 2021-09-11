@@ -8,6 +8,13 @@ build: clean
 	nasm ${KERNEL} -f bin -o build/kernel.bin
 	cat build/bootloader.bin build/kernel.bin > build/OS.bin
 
+
+publish: 
+	git add .
+	git commit -m "$(text)"
+	git push -u MyOs root
+
+
 clean:
 	rm -rf build
 
