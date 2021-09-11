@@ -1,5 +1,5 @@
 # myOS
-I'm trying to learn how to create an os form scratch using assembly langue \textcolor{red}{red}
+I'm trying to learn how to create an os form scratch using assembly langue
 
 ## building bin file 
 - run ```make build``` in the terminal will generate three binary files the bootloader the kernel an the os.
